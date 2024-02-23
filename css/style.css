@@ -54,6 +54,11 @@ body {
 	margin-bottom: 3em !important;
 }
 
+.prjct-bg2 {
+	margin-top: .5em !important;
+	margin-bottom: .5em !important;
+}
+
 .img-prjct-logo {
 	display:none !important;
 }
@@ -64,6 +69,12 @@ body {
 }
 
 .lg-col-wrt2 {
+	font-size: 1.8em !important;
+	padding: 3% !important;
+	text-align: center !important;
+}
+
+.lg-col-wrt3 {
 	font-size: 1.8em !important;
 	padding: 3% !important;
 	text-align: center !important;
@@ -344,6 +355,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	text-align: center;
 	margin-top: 60px;
 }
+
+.lg-col-wrt3 {
+	font-size: 2em;
+	line-height: 1.8em;
+	letter-spacing: .04em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #161616;
+	text-align: center;
+	/* margin-top: 60px; */
+}
 /*** THE END SERVICES WRT ***/
 
 /*** WRITE AND PHOTO ***/
@@ -367,6 +389,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	font-family: 'Roboto', sans-serif;
 	color: #161616;
 	padding-left: 1%;
+}
+
+.lg-col-ttl3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: .03em;
+	line-height: 1.7em;
+	font-family: 'Roboto', sans-serif;
+	color: #161616;
+	padding-left: 1%;
+    text-align: center;
 }
 /*** THE END SINGLE WORK TITLE ***/
 
