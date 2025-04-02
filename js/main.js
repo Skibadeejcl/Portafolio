@@ -16,3 +16,18 @@ jQuery(document).ready(function($){
 		}
 	});
 });
+
+function filterImages(category) {
+	let rows = document.querySelectorAll('.bloque');
+	if (category === 'all') {
+		rows.forEach(row => row.classList.remove('hidden'));
+	} else {
+		rows.forEach(row => {
+			row.classList.add('hidden');
+			if (row.classList.contains(category)) {
+				row.classList.remove('hidden');
+			}
+		});
+	}
+}
+filterImages('all'); // Mostrar todas las imágenes por defecto
