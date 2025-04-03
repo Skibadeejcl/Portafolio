@@ -36,8 +36,8 @@ body {
 }
 
 .hero-bg {
-    height: 70vh !important;
-	padding-top: 30vh !important;
+    height: 25vh !important;
+	padding-top: 10vh !important;
 	padding-left: 15px !important;
 }
 
@@ -80,9 +80,11 @@ body {
 
 .lg-col-wrt3 {
 	font-size: 1.8em !important;
-	padding: 3% !important;
+	padding: 0% !important;
 	text-align: center !important;
+	margin-top: 0em !important;
 }
+
 
 .lg-col-ttl {
 	font-size: 1.6em !important;
@@ -204,6 +206,7 @@ body {
 .shw-cs2 {
 	font-size: 2.5em !important;
 	padding-top: 5% !important;
+	line-height: 1;
 }
 
 .shw-cs {
@@ -290,8 +293,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	background: transparent;
 	margin: 0 auto;
 	text-align: left;
-	height: 80vh;
-	padding-top: 38.5vh;
+	height: 40vh;
+	padding-top: 10vh;
 }
 /*** THE END HERO HEADER ***/
 
@@ -362,6 +365,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	color: #161616;
 	text-align: center;
 	margin-top: 60px;
+	margin-bottom: 20px;
 }
 
 .lg-col-wrt3 {
@@ -385,6 +389,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #161616;
+	text-align: justify;
 }
 /*** THE END WRITE AND PHOTO ***/
 
@@ -400,7 +405,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .lg-col-ttl3 {
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 700;
 	letter-spacing: .03em;
 	line-height: 1.7em;
@@ -408,6 +413,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	color: #161616;
 	padding-left: 1%;
     text-align: center;
+	margin-top: 1.5em;
 }
 /*** THE END SINGLE WORK TITLE ***/
 
@@ -427,6 +433,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
    animation: animatebottom 3s;
    padding-right: 1%;
    padding-left: 1%;
+   margin-left: 2%;
 }
 /*** THE END SINGLE WORK PHOTO COVER ***/
 
