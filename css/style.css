@@ -100,9 +100,11 @@ body {
 }
 
 .lg-col-bg2 {
-	margin-top: 3em !important;
-	margin-bottom: .5em !important;
-	display: none !important;
+    margin-top: 3em !important;
+    margin-bottom: .5em !important;
+    display: flex;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;      /* Centra el contenido verticalmente si es necesario */
 }
 
 .nav-ttl {
@@ -194,7 +196,9 @@ body {
 .img-lg-col2 {
 	padding-left: 0px !important;
 	padding-right: 0px !important;
-	display: none !important;
+	width: 50% !important;
+	height: auto !important;
+	/* display: none !important; */
 }
 
 .shw-cs2 {
